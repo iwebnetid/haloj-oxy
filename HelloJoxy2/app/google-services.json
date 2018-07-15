@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "912884124012",
+    "firebase_url": "https://hellojoxy.firebaseio.com",
+    "project_id": "hellojoxy",
+    "storage_bucket": "hellojoxy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912884124012:android:3d371e85f3f728c8",
+        "android_client_info": {
+          "package_name": "com.imobilenetid.helloj_oxy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "912884124012-jfqllph4mpl2cf6t2l2bu4fcca79aam4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.imobilenetid.helloj_oxy",
+            "certificate_hash": "16f76ee5d935b6a26c932c3fa67171039759e64c"
+          }
+        },
+        {
+          "client_id": "912884124012-9lk7h3t62cpn5kfcq954eflread6b1gj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv6pDXuJ3ttbiYO9GiOdjTI3IiIjYCWqA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "912884124012-9lk7h3t62cpn5kfcq954eflread6b1gj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
