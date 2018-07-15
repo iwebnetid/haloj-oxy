@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.imobilenetid.helloj_oxy.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_pesan"
+        android:icon="@drawable/ic_shopping_cart_black_24dp"
+        android:orderInCategory="200"
+        android:title="Pesan"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="Log Out"
+        android:visible="true"
+        app:showAsAction="never" />
+
+</menu>

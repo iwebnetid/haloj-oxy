@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+<!--
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_picture_field"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+            -->
+
+        <ImageButton
+            android:id="@+id/camera_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp" />
+
+        <EditText
+            android:id="@+id/other_display_name_field"
+            android:layout_width="283dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="8dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:hint="nama"
+            android:inputType="text"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/email_field"
+            android:layout_width="283dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:hint="email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/data_alamat"
+            android:layout_width="283dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:hint="alamat"
+            android:inputType="textPostalAddress" />
+
+        <EditText
+            android:id="@+id/data_alamat_lengkap"
+            android:layout_width="283dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:hint="alamat lengkap"
+            android:inputType="textPostalAddress" />
+
+        <EditText
+            android:id="@+id/password_field"
+            android:layout_width="283dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:maxLines="1"/>
+
+        <EditText
+            android:id="@+id/phone_number_field"
+            android:layout_width="283dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:hint="nomor telepon"
+            android:inputType="numberDecimal"
+            android:maxLines="1"/>
+
+        <Button
+            android:id="@+id/sign_up_button"
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="@color/colorAccent"
+            android:text="Registrasi"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+</FrameLayout>
